@@ -1,0 +1,54 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  text-align: center;
+  padding: 40px;
+}
+
+.justice-img {
+  width: 140px;
+  margin: 15px auto;
+  display: block;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+
+  /* ✅ Background Image */
+  background-image: url("https://img.indiafilings.com/learn/wp-content/uploads/2018/12/Code-of-Civil-Procedure.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Overlay box for readability */
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+#answer {
+  margin-top: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
