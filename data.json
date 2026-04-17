@@ -1,0 +1,42 @@
+{
+  "rent": {
+    "keywords": ["rent", "rental", "tenant", "landlord", "bhade", "भाडे", "भाड्याने", "भाडेकरू", "मालक"],
+    "answer": "Under Indian law, tenants have the right to peaceful possession of the rented property. A landlord cannot evict a tenant without following proper legal procedure. A written rental agreement is strongly recommended.",
+    "source": "https://housing.com/news/rights-and-responsibilities-of-tenants/"
+  },
+ "consumer": {
+  "keywords": ["consumer", "product", "service", "complaint", "grahak", "ग्राहक", "सेवा", "तक्रार", "प्रॉडक्ट"],
+  "answer": "Consumers in India are protected under the Consumer Protection Act, 2019. They can seek compensation for defective products, misleading advertisements, and poor services through consumer courts.",
+  "source": "https://consumerhelpline.gov.in/"
+},
+  "job": {
+    "keywords": ["job", "work", "employee", "employment", "nokri", "नोकरी", "काम", "कर्मचारी"],
+    "answer": "Employees are entitled to fair wages, a safe working environment, and protection from wrongful termination. Employers must follow due process before dismissal.",
+    "source": "https://labour.gov.in/"
+  },
+  "salary": {
+    "keywords": ["salary", "wages", "pay", "payment", "pagar", "पगार", "वेतन", "पैसे", "पेमेंट"],
+    "answer": "Salary must be paid on time as per the employment terms. Delayed or unpaid salary may be challenged under labour laws, and employees can approach the Labour Commissioner.",
+    "source": "https://labour.gov.in/"
+  },
+  "police": {
+    "keywords": ["police", "arrest", "custody", "fir", "polis", "पोलीस", "अटक", "एफआयआर", "कस्टडी"],
+    "answer": "Police officers must act according to the Constitution and criminal laws. An arrested person must be informed of the reason for arrest and produced before a magistrate within 24 hours.",
+    "source": "https://www.indiacode.nic.in/"
+  },
+  "property": {
+    "keywords": ["property", "land", "ownership", "house", "malmatta", "मालमत्ता", "जमीन", "घर", "मालकी"],
+    "answer": "Property disputes in India are civil matters and are usually resolved in civil courts. Proper documents like sale deed, title deed, and registration records are essential to prove ownership.",
+    "source": "https://www.india.gov.in/services"
+  },
+  "marriage": {
+    "keywords": ["marriage", "divorce", "wife", "husband", "lagna", "लग्न", "घटस्फोट", "बायको", "नवरा"],
+    "answer": "Marriage laws in India provide rights related to maintenance, inheritance, divorce, and protection from cruelty. Marriage registration is important as legal proof.",
+    "source": "https://www.indiacode.nic.in/"
+  },
+  "crime": {
+    "keywords": ["crime", "criminal", "fir", "offence", "gunha", "गुन्हा", "एफआयआर", "तक्रार", "अपराध"],
+    "answer": "Every citizen has the right to file an FIR for cognizable offences. Police cannot refuse to register an FIR in such cases, and victims have the right to legal assistance and fair investigation.",
+    "source": "https://www.indiacode.nic.in/"
+  }
+}

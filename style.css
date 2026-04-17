@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+ background: url("https://media.istockphoto.com/id/899457986/photo/legal-office-lawbooks-and-wooden-judges-gavel-law-concept.jpg?s=612x612&w=0&k=20&c=gMOecdqhlWD9CgfFWDps3WvkOTeVpSIUnsCwIDvK0wo=") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  min-width: 250px;
+  padding: 14px;
+  font-size: 16px;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #1e88e5;
+}
+
+button {
+  padding: 14px 22px;
+  font-size: 16px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.cat-btn {
+  background: #e3f2fd;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.cat-btn:hover {
+  background: #bbdefb;
+}
+
+.answer-box {
+  background: #f9fbff;
+  border: 1px solid #dbeafe;
+  padding: 22px;
+  border-radius: 14px;
+  min-height: 170px;
+}
+
+.default-text {
+  color: #777;
+}
+
+.answer-box h3 {
+  color: #0d47a1;
+  margin-bottom: 12px;
+}
+
+.answer-box p {
+  margin-bottom: 12px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.answer-box a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.answer-box a:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+.suggestions {
+  margin-top: 10px;
+  padding: 12px;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 10px;
+  color: #6d4c41;
+}
+
+.suggestions b {
+  color: #e65100;
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .cat-btn {
+    width: auto;
+  }
+}

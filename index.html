@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal Advice Assistant - Version 2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>⚖️ Legal AI Assistant</h1>
+    <p class="subtitle">
+      Ask your legal question
+    </p>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="question"
+        placeholder="Ask your legal question..."
+      />
+      <button onclick="getAdvice()">Get Advice</button>
+    </div>
+
+    <div class="category-buttons">
+      <button class="cat-btn" onclick="setQuestion('rent')">🏠 Rent</button>
+      <button class="cat-btn" onclick="setQuestion('salary')">💼 Salary</button>
+      <button class="cat-btn" onclick="setQuestion('consumer')">🛒 Consumer</button>
+      <button class="cat-btn" onclick="setQuestion('police')">👮 Police</button>
+      <button class="cat-btn" onclick="setQuestion('property')">🏡 Property</button>
+      <button class="cat-btn" onclick="setQuestion('marriage')">💍 Marriage</button>
+      <button class="cat-btn" onclick="setQuestion('crime')">⚠️ Crime</button>
+    </div>
+
+    <div id="answer" class="answer-box">
+      <p class="default-text">Your legal advice will appear here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
